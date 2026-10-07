@@ -1,43 +1,45 @@
 Ristorante Con Fusion
 
-A responsive restaurant website originally developed as part of a Coursera web development course and later revisited and modernized as a personal learning project.
+A responsive restaurant website built with HTML, CSS, JavaScript, and Bootstrap 5.3.
 
-The project was originally built to practice responsive web design, Bootstrap components, navigation, forms, carousels, accordions, and basic front-end development. I later returned to the project to update its dependencies and bring the application forward to Bootstrap 5 while preserving the original visual style and much of the original implementation.
+This project was originally developed while following a Coursera web development course and was later revisited as a personal learning project. I modernized the original implementation by migrating it to Bootstrap 5.3 while preserving the overall design and improving my understanding of maintaining and updating an existing front-end project.
 
-Features
+🌐 Live Demo
+
+View the live website
+
+✨ Features
 
 Responsive navigation bar
 
-Active navigation states for each page
+Responsive restaurant layout
 
-Responsive restaurant header
-
-Bootstrap carousel showcasing restaurant dishes
+Bootstrap 5 carousel
 
 Restaurant promotions and featured dishes
 
-Reservation form
+Reservation form interface
 
 About Us page
 
-Corporate leadership accordion
+Restaurant facts and figures
 
-Restaurant facts and figures table
+Leadership team accordion
 
 Contact and feedback form
 
 Location and contact information
 
-Social media buttons
+Social media links
 
-Responsive layout for desktop and mobile screens
+Responsive design for desktop and mobile
 
 Font Awesome icons
 
-Pages
+📄 Pages
 Home
 
-The home page introduces Ristorante Con Fusion and includes:
+The home page introduces the restaurant and includes:
 
 Restaurant introduction
 
@@ -53,7 +55,7 @@ Reservation form
 
 About Us
 
-The About Us page contains:
+The About Us page includes:
 
 Restaurant history
 
@@ -61,7 +63,7 @@ Restaurant facts
 
 Company leadership
 
-Bootstrap accordion for the leadership team
+Bootstrap accordion
 
 Facts and figures table
 
@@ -69,41 +71,41 @@ Restaurant quotation
 
 Contact Us
 
-The Contact page contains:
+The Contact page includes:
 
 Location information
 
 Contact details
 
-Phone, Skype and email buttons
+Phone, Skype, and email buttons
 
 Customer feedback form
 
 Social media links
 
-Technologies Used
+🛠️ Technologies
 
 HTML5
 
 CSS3
 
+JavaScript
+
 Bootstrap 5.3
 
 Font Awesome
-
-JavaScript
 
 npm
 
 Lite Server
 
-Bootstrap Migration
+🔄 Bootstrap 5 Migration
 
-This project originally used an older version of Bootstrap as part of the course material.
+The original project used an older version of Bootstrap as part of the course material.
 
-As part of revisiting the project, I upgraded the application to Bootstrap 5.3 while keeping the original design and overall structure as much as possible.
+When revisiting the project, I migrated the application to Bootstrap 5.3 while keeping the original visual design and structure as much as possible.
 
-Some of the older Bootstrap dependencies and conventions were removed or replaced, including:
+As part of the migration, I replaced older Bootstrap conventions and dependencies, including:
 
 Bootstrap 4-era JavaScript usage
 
@@ -115,14 +117,14 @@ bootstrap-social
 
 Bootstrap 4 form classes and attributes
 
-Bootstrap 5's bundled JavaScript is now used for the application.
+The project now uses Bootstrap 5's bundled JavaScript.
 
-Running the Project
+🚀 Running Locally
 1. Clone the repository
-git clone https://github.com/fezile-sudo/Bootstrap4.git
+git clone https://github.com/fezile-sudo/Bootstrap5.git
 
-2. Open the project directory
-cd Bootstrap4/conFusion
+2. Enter the project directory
+cd Bootstrap5
 
 3. Install dependencies
 npm install
@@ -131,43 +133,35 @@ npm install
 npm start
 
 
-The project uses Lite Server and should be available at:
+The project will be available at:
 
 http://localhost:3000
 
-Project Structure
-conFusion/
-│
+📁 Project Structure
+Bootstrap5/
 ├── css/
-│   └── styles-old.css
-│
+├── dist/
 ├── img/
-│   ├── logo.png
-│   ├── uthappizza.png
-│   ├── alberto.png
-│   └── buffet.png
-│
-├── node_modules/
-│
 ├── aboutus.html
 ├── contactus.html
 ├── index.html
 ├── package.json
+├── package-lock.json
 └── README.md
 
-Learning Objectives
+📚 What I Practiced
 
-This project was originally created to practice the fundamentals of front-end web development, including:
+This project helped me practice:
 
-Responsive layouts
+Responsive web design
 
-Bootstrap grid system
+Bootstrap's grid system
 
 Bootstrap components
 
-Forms
-
 Navigation
+
+Forms
 
 Carousels
 
@@ -177,26 +171,28 @@ Tables
 
 Responsive images
 
-CSS customization
+Custom CSS
 
 Basic JavaScript interaction
 
 npm and front-end dependencies
 
-Revisiting the project also provided an opportunity to practice maintaining and modernizing an older front-end project.
+Modernizing an existing front-end project
 
-Project Status
+The Bootstrap migration also gave me practical experience working with an older project and updating it to use a newer framework version without completely rebuilding the application.
 
-The project is currently a front-end demonstration project.
+🚧 Project Status
 
-It does not include a backend, database, authentication system, or real restaurant reservation system. The forms and reservation interface are primarily intended to demonstrate front-end design and interaction.
+This is a front-end demonstration and portfolio project.
 
-Credits
+It does not currently include a backend, database, authentication system, or real restaurant reservation system. The reservation and contact forms are intended to demonstrate front-end design and interaction.
+
+📖 Credits
 
 This project was originally developed while following a Coursera web development course.
 
-The project was subsequently revisited and updated as a personal learning exercise to improve familiarity with modern Bootstrap, front-end dependency management, and maintaining an older web project.
+It was later revisited and updated as a personal learning project to improve my experience with Bootstrap 5, front-end dependency management, and maintaining an existing web project.
 
-License
+📌 Purpose
 
-This project is intended primarily for educational and portfolio purposes.
+This project is maintained as part of my web development portfolio and demonstrates my ability to work with an existing codebase, modernize its dependencies, build responsive interfaces, and deploy a static website.
