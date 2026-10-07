@@ -6,7 +6,7 @@ This project was originally developed while following a Coursera web development
 
 🌐 Live Demo
 
-View the live website
+https://fezile-sudo.github.io/Bootstrap5/
 
 ✨ Features
 
